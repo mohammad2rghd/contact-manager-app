@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mohammad2rghd.github.io/contactsManagerApp/static/css/main.2611678a.css",
-    "main.js": "/mohammad2rghd.github.io/contactsManagerApp/static/js/main.10de45bf.js",
-    "static/media/Spinner.gif": "/mohammad2rghd.github.io/contactsManagerApp/static/media/Spinner.5b35cef0ce49e2af8525.gif",
-    "static/media/no-found.gif": "/mohammad2rghd.github.io/contactsManagerApp/static/media/no-found.8a3fe9fd54d21c85d260.gif",
-    "static/media/man-taking-note.png": "/mohammad2rghd.github.io/contactsManagerApp/static/media/man-taking-note.578e1679689f39584d15.png",
-    "index.html": "/mohammad2rghd.github.io/contactsManagerApp/index.html",
-    "main.2611678a.css.map": "/mohammad2rghd.github.io/contactsManagerApp/static/css/main.2611678a.css.map",
-    "main.10de45bf.js.map": "/mohammad2rghd.github.io/contactsManagerApp/static/js/main.10de45bf.js.map"
+    "main.css": "/contactsManagerApp/static/css/main.2611678a.css",
+    "main.js": "/contactsManagerApp/static/js/main.0cd836db.js",
+    "static/media/Spinner.gif": "/contactsManagerApp/static/media/Spinner.5b35cef0ce49e2af8525.gif",
+    "static/media/no-found.gif": "/contactsManagerApp/static/media/no-found.8a3fe9fd54d21c85d260.gif",
+    "static/media/man-taking-note.png": "/contactsManagerApp/static/media/man-taking-note.578e1679689f39584d15.png",
+    "index.html": "/contactsManagerApp/index.html",
+    "main.2611678a.css.map": "/contactsManagerApp/static/css/main.2611678a.css.map",
+    "main.0cd836db.js.map": "/contactsManagerApp/static/js/main.0cd836db.js.map"
   },
   "entrypoints": [
     "static/css/main.2611678a.css",
-    "static/js/main.10de45bf.js"
+    "static/js/main.0cd836db.js"
   ]
 }
