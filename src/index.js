@@ -11,7 +11,7 @@ import "react-toastify/dist/ReactToastify.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="contact-manager-app">
+    <BrowserRouter basename="contact-manager-app.iran.liara.run">
       <App />
     </BrowserRouter>
   </React.StrictMode>
