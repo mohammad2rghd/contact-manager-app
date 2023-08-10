@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const SERVER_URL = "https://contact-manager-app-api.iran.liara.run/";
+const SERVER_URL = "https://contact-manager-app-api.iran.liara.run";
 
 // @desc Get All Contacts
 // @route GET http://localhost:9000/contacts
