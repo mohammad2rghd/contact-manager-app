@@ -7,7 +7,11 @@ const authToken = "YOUR_AUTH_TOKEN";
 // @route GET https://contact-manager-app-api.iran.liara.run/contacts
 export const getAllContacts = () => {
   const url = `${SERVER_URL}/contacts`;
-  return axios.get(url);
+  return axios.get(url, {
+    headers: {
+      Authorization: `Bearer ${authToken}`,
+    },
+  });
 };
 
 // @desc Get Contact With Contact ID
@@ -16,7 +20,7 @@ export const getContact = (contactId) => {
   const url = `${SERVER_URL}/contacts/${contactId}`;
   return axios.get(url, {
     headers: {
-      Authorization: authToken,
+      Authorization: `Bearer ${authToken}`,
     },
   });
 };
@@ -27,7 +31,7 @@ export const getAllGroups = () => {
   const url = `${SERVER_URL}/groups`;
   return axios.get(url, {
     headers: {
-      Authorization: authToken,
+      Authorization: `Bearer ${authToken}`,
     },
   });
 };
@@ -38,7 +42,7 @@ export const getGroup = (groupId) => {
   const url = `${SERVER_URL}/groups/${groupId}`;
   return axios.get(url, {
     headers: {
-      Authorization: authToken,
+      Authorization: `Bearer ${authToken}`,
     },
   });
 };
@@ -49,7 +53,7 @@ export const createContact = (contact) => {
   const url = `${SERVER_URL}/contacts`;
   return axios.post(url, contact, {
     headers: {
-      Authorization: authToken,
+      Authorization: `Bearer ${authToken}`,
     },
   });
 };
@@ -60,7 +64,7 @@ export const updateContact = (contact, contactId) => {
   const url = `${SERVER_URL}/contacts/${contactId}`;
   return axios.put(url, contact, {
     headers: {
-      Authorization: authToken,
+      Authorization: `Bearer ${authToken}`,
     },
   });
 };
@@ -71,7 +75,7 @@ export const deleteContact = (contactId) => {
   const url = `${SERVER_URL}/contacts/${contactId}`;
   return axios.delete(url, {
     headers: {
-      Authorization: authToken,
+      Authorization: `Bearer ${authToken}`,
     },
   });
 };
